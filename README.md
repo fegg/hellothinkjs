@@ -18,6 +18,7 @@
 3. 编译并运行后台 es6 代码（请勿修改 babel 版本）
 
 	// 最新 thinkjs 2.0.6 自动会进行 complie 操作
+
 	npm run start
 
 4. 使用 gulp 运行前端代码

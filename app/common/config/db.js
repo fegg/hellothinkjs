@@ -7,7 +7,7 @@
   type: 'mysql', 
   host: '127.0.0.1', 
   port: '', 
-  name: 'food', 
+  name: 'food', // database name
   user: 'root', 
   pwd: 'lulin', 
   prefix: 'think_', 
