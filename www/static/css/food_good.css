@@ -1,0 +1,58 @@
+body {
+	background-color: #ededed;
+}
+
+#love {
+	text-align: center;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+
+#more {
+	display: block;
+	width: 150px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	padding: 0 30px;
+	margin: 30px auto 0;
+	text-decoration: none;
+	background-color: #ca1f02;
+	border: 1px solid #ca1f02;
+	border-radius: 7px;
+}
+
+#more:hover {
+	background-color: #e32402;
+}
+
+#foods {
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+	margin: -20px 0 0 -10px;
+}
+
+.food {
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+	margin: 20px 0 0 10px;
+	border: 10px solid #fff;
+	border-radius: 3px;
+	vertical-align: top;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+}
+
+.food-img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#foods .more-food[index^='more'] {
+	transition: transform 1s, opacity 1s;
+}
+
+

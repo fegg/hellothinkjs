@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>重庆美食</title>
+    <link rel="stylesheet" href="http://s3.qhimg.com/!b617ac16/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/food_good.css">
+</head>
+
+<body>
+    <div id="love">
+        <ul id="foods" class="js-foods">
+        	<% for(var i = 0, n = foodList.length; i < n; ++i) { %>
+            <li class="food">
+            	<img class="food-img" src="<%- foodList[i].foodurl%>" alt="<%- foodList[i].foodname%>">
+            </li>
+            <% } %>
+        </ul>
+        <a id="more" class="js-more" href="javascript:;">加载更多</a>
+    </div>
+
+    <script src="/static/dist/food_good.js"></script>
+</body>
+
+</html>
